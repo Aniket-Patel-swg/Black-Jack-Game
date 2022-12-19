@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Black Jack Game </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <h1>The BlackJack game</h1>
+            <p id = "message-el">Want to play a round?</p>
+            <p id = "cards-el">Cards: </p>
+            <p id = "sum-el">Sum: </p>
+            <p id = "Greetings-el"></p>
+    </div>
+    <div>
+        <input type="button" class = "button-1" onclick = "startGame()" value = "Start Game">
+        <input type="button" class = "button-1" onclick = "newCard()" value = "New Card">
+        <p id="player-el"></p>
+        <input type="button" class="button-1" onclick="diaplayPlayerData()" value="Show player info">
+        <p id="player-info-el">
+
+        </p>
+      </div>
+      <div>
+            <p id="apple-shelf">
+               
+            </p>
+      </div>
+      <div>
+            <p id="orange-shelf">
+
+            </p>
+      </div>
+    <script src="index.js"></script>
+</body>
+</html>
