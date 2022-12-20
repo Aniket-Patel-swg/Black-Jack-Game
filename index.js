@@ -242,28 +242,28 @@ The 5 largest countries in the world
 
 // (6) Sorting Fruits
 
-let fruit = ["Apple","Orange","Apple","Apple","Orange"];
-let appleShelf = document.getElementById("apple-shelf");
-let orangeShelf = document.getElementById("orange-shelf");
+// let fruit = ["Apple","Orange","Apple","Apple","Orange"];
+// let appleShelf = document.getElementById("apple-shelf");
+// let orangeShelf = document.getElementById("orange-shelf");
 
-putOnAppleShelf();
-function putOnAppleShelf() { 
+// putOnAppleShelf();
+// function putOnAppleShelf() { 
   
-  for(let i = 0; i < fruit.length; i++){
-    let checkString = "Apple";
-    if(checkString === fruit[i]){
-      appleShelf.textContent += fruit[i] + i + " ";
-    }
-  }
-}
-putOnOrangeShelf();
+//   for(let i = 0; i < fruit.length; i++){
+//     let checkString = "Apple";
+//     if(checkString === fruit[i]){
+//       appleShelf.textContent += fruit[i] + i + " ";
+//     }
+//   }
+// }
+// putOnOrangeShelf();
 
-function putOnOrangeShelf(){
+// function putOnOrangeShelf(){
 
-  for(let i = 0; i< fruit.length; i++){
-    let checkString = "Orange";
-    if(checkString === fruit[i]){
-       orangeShelf.textContent += fruit[i] + i + " ";
-    }
-  }
-}
+//   for(let i = 0; i< fruit.length; i++){
+//     let checkString = "Orange";
+//     if(checkString === fruit[i]){
+//        orangeShelf.textContent += fruit[i] + i + " ";
+//     }
+//   }
+// }
